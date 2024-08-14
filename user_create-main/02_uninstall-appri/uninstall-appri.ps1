@@ -9,7 +9,9 @@ Get-AppxPackage Microsoft.XboxIdentityProvider | Remove-AppxPackage ;
 Get-AppxPackage Microsoft.WindowsTerminal | Remove-AppxPackage ; 
 Get-AppxPackage Microsoft.ZuneVideo | Remove-AppxPackage ;
 Get-Appxpackage Microsoft.ScreenSketch | remove-appxpackage ; 
-Get-AppxPackage Microsoft.GamingApp | Remove-AppxPackage
+Get-AppxPackage Microsoft.GamingApp | Remove-AppxPackage ; 
+Get-AppxPackage Microsoft.PowerAutomateDesktop | Remove-AppxPackage ; 
+Get-AppxPackage MicrosoftTeams | Remove-AppxPackage
 #winget uninstall microsoft.onedrive
 
 #Get-Process -name "HP.ClientSecurityManager"
